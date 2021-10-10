@@ -1,5 +1,5 @@
-const SERVER_URL = 'http://afternoon-stream-48697.herokuapp.com:8000';
-const GAME_URL = 'http://afternoon-stream-48697.herokuapp.com/client/';
+const SERVER_URL = 'https://afternoon-stream-48697.herokuapp.com';
+const GAME_URL = 'https://afternoon-stream-48697.herokuapp.com/client/';
 const socket = io(SERVER_URL);
 let player_count = 0;
 
