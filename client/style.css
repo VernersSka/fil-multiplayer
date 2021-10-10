@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.game_block {
+  display: none;
+}
+
+.game_board {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 0.2em;
+  width: 604px;
+  height: 604px;
+  margin: 20px auto;
+}
+
+.game_board a {
+  background: rgb(226, 226, 226);
+  text-decoration: none;
+  text-align: center;
+  line-height: 200px;
+  font-size: 150px;
+  color: rgb(68, 68, 68);
+}
+
+.game_board a:hover {
+  background: rgb(220, 220, 220);
+}
+
+.four-in-line {
+  grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+}
+
+.four-in-line a {
+  line-height: 56px;
+  font-size: 45px;
+}
+
+.btn {
+  background: rgb(226, 226, 226);
+  border: 2px solid rgb(68, 68, 68);
+  border-radius: 0.8rem;
+  color: rgb(68, 68, 68);
+  display: block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.btn:active {
+  background: rgb(172, 172, 172);
+}
+
+h2 {
+  text-align: center;
+}
+
+.start_game {
+  text-align: center;
+}
+
+.start_game form {
+  margin-top: 50px;
+}
+
+.message {
+  text-align: center;
+  font-size: 20px;
+}
+
+#start-btn {
+  display: none;
+}
+
+#copy-btn {
+  display: none;
+  vertical-align: middle;
+}
+
+#join-btn {
+  margin: 20px auto;
+}
+
+.game_code {
+  opacity: 0;
+  width: 0.1px;
+}
+
+.game_code_text {
+  font-size: 0.8em;
+}
+
+.room {
+  display: inline;
+}
+
+.instructions {
+  font-size: 1em;
+  font-weight: bold;
+  list-style-position: inside;
+  line-height: 1.3em;
+  padding: 0;
+  text-align: center;
+}
+
+.active_player {
+  background: rgba(98, 146, 53, 0.582);
+}
+
+.game_ended {
+  background: rgb(141, 137, 137);
+}
+
+.results {
+  margin: 0 auto;
+}
+
+.results td {
+  padding: 0 15px;
+  text-align: center;
+}
